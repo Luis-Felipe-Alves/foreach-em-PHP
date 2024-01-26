@@ -33,3 +33,17 @@ foreach($vetorAleatorio as $indice => $elemento){
     echo 'No índice ' . $indice . ' o elemento é ' . $elemento . '.' . PHP_EOL;
 
 }
+
+//Uma aplicação com índices nomeados:
+
+$parenteS = [
+    'Vó' => 'Erminia',
+    'Tio' => 'Corno',
+    'Irmao' => 'Gonzaga',
+    'Pai' => 'Tornado Transtornado',
+    'Mae' => 'Lilica Sirilica'
+];
+
+foreach($parenteS as $parentesco => $parente){
+    echo 'A pessoa de parentesco ' . $parentesco . ' chama-se ' . $parente . '.' . PHP_EOL;
+}
